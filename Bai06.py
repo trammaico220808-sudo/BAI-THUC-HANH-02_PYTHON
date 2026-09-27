@@ -1,0 +1,5 @@
+text = input("Nhập vào một câu: ")
+text = text.split(" ")
+print(text)
+text = "-".join(text)
+print("->", text)

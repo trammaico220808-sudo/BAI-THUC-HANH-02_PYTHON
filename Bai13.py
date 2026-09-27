@@ -1,0 +1,5 @@
+text1 = list(map(int, input("Nhập danh sách số thứ nhất: ").split()))
+text2 = list(map(int, input("Nhập danh sách số thứ hai: ").split()))
+text3 = list(set(text1 + text2))
+text3.sort()
+print(text3)
